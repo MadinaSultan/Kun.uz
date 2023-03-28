@@ -1,0 +1,33 @@
+### Registration
+POST http://localhost:8081/auth/registration
+Content-Type: application/json
+
+{
+  "name": "knkjjjjjjj ",
+  "surname": "",
+  "phone": "1555523",
+  "password": "88888",
+  "email": "jjjjjjjjjjj@gmail.com"
+}
+
+
+
+
+### Authorization user
+POST localhost:8081/auth/login
+Content-Type: application/json
+Accept-Language: RU
+
+{
+  "phone": "+998943943433",
+  "password": "3433"
+}
+
+### Authorization Admin
+POST localhost:8081/auth/login
+Content-Type: application/json
+
+{
+  "phone": "0000",
+  "password": "0000"
+}

@@ -1,0 +1,40 @@
+### Region Create
+POST localhost:8081/region/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA2NzczNTMsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA3NjM3NTMsImlzcyI6Ik1hemdpIn0.20QUObDycSxWW8vTRu8sG-g_jLAAH0lKQtuwA4-OayWS0npFX3sR4Rfi_M92wCk-SskB7gOik4DdBWkkQPUIGg
+
+{
+  "key": "888888",
+  "nameUz": "sakkiz",
+  "nameRu": "vosem",
+  "nameEng": "eight"
+}
+
+
+#### Get List
+GET localhost:8081/region/list?page=0&size=10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+
+#### update
+PUT http://localhost:8081/region/update/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+
+{
+  "key": "gulica",
+  "nameUz": "xaxa😃 toshkentda",
+  "nameRu": "😁 pogoda ",
+  "nameEng": "Today 😇🤗 very good",
+  "visible":false
+}
+
+
+####DETELE Admin region
+DELETE http://localhost:8081/region/delete?id=2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+
+
+####list language Admin article_type
+GET http://localhost:8081/region/byLang?key=gulica&lang=EN
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+

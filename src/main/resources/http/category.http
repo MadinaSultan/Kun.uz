@@ -1,0 +1,40 @@
+### Category Create
+POST localhost:8081/category/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA2NzczNTMsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA3NjM3NTMsImlzcyI6Ik1hemdpIn0.20QUObDycSxWW8vTRu8sG-g_jLAAH0lKQtuwA4-OayWS0npFX3sR4Rfi_M92wCk-SskB7gOik4DdBWkkQPUIGg
+
+{
+  "key": "0000000",
+  "nameUz": "sddddddddddd",
+  "nameRu": "",
+  "nameEng": "seven"
+}
+
+
+#### Get List
+GET localhost:8081/category/list?page=0&size=10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTEzNDUsImlkIjoxLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxMzc3NDUsImlzcyI6Ik1hemdpIn0.VuGl3H-ji-kQpQS9wIlL58N7vv3OFxdbaBrFye9EYZrQBeKx_nOhPc8KOqUY4IpSJsKuirDZxlbI8xs2gQ9VdA
+
+#### update
+PUT http://localhost:8081/category/update/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+
+{
+  "key": "gulica",
+  "nameUz": "xaxa😃 toshkentdaman",
+  "nameRu": "😁 pogoda ",
+  "nameEng": "Today 😇🤗 very good",
+  "visible":true
+}
+
+
+###DETELE Admin category
+DELETE http://localhost:8081/category/delete?id=
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+
+
+####list language Admin article_type
+GET http://localhost:8081/category/byLang?key=gulica&lang=UZ
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+

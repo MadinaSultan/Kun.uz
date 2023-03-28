@@ -1,0 +1,39 @@
+### Articletype Create
+POST localhost:8081/articleType/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+
+{
+  "key": "yyyyyyyyyyyy",
+  "nameUz": "Bugun toshkentda",
+  "nameRu": "segodnaya pogoda ",
+  "nameEn": "Today weather very good"
+}
+
+
+### Get List
+GET localhost:8081/articleType/admin?page=0&size=10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzA1OTA4MjEsImlkIjozLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NzcyMjEsImlzcyI6Ik1hemdpIn0.gna-rhUPJcWZx5C7sKml3dAgQg7kSL3s8n2YXAHNdShPZ4ECPFB9Xu1GFlX_U2PY4EvuH9Tg9Yq4QeX8OILrIw
+
+### update
+PUT http://localhost:8081/articleType/update/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+
+{
+  "key": "yyyyyyyyyyyy",
+  "nameUz": "Bugun toshkentda",
+  "nameRu": "segodnaya pogoda ",
+  "nameEn": "Today weather very good"
+}
+
+
+###DETELE Admin article_type
+DELETE http://localhost:8081/articleType/admin?id=100
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+
+
+###list language Admin article_type
+GET http://localhost:8081/articleType/byLang?lang=UZ
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NzAwNTc4NTAsImlkIjoxMDAwLCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNDQyNTAsImlzcyI6Ik1hemdpIn0.BQ9d9Vy36yDmDzhqiszk1PN8zNW-aHfyqwrj7uS9651f82eX1S6Bk8PaZWdA5n4CZygbsMrrq_fVXSCNBTIULA
+
