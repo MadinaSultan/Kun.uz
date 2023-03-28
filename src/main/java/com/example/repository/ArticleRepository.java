@@ -1,10 +1,7 @@
 package com.example.repository;
 
-import com.example.dto.article.ArticleShortInfoDTO;
 import com.example.entity.ArticleEntity;
-import com.example.entity.AttachEntity;
 import com.example.enums.ArticleStatus;
-import com.example.mapper.ArticleShortInfoMapper;
 import com.example.mapper.IArticleShortInfoMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

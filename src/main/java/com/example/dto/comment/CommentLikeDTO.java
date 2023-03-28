@@ -1,9 +1,7 @@
 package com.example.dto.comment;
 
-import com.example.entity.ArticleEntity;
 import com.example.entity.CommentEntity;
 import com.example.entity.ProfileEntity;
-import com.example.enums.ArticleLIkeStatus;
 import com.example.enums.CommentLikeStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;

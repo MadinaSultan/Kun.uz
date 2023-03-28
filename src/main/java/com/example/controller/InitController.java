@@ -5,7 +5,6 @@ import com.example.enums.ProfileRole;
 import com.example.enums.ProfileStatus;
 import com.example.repository.ProfileRepository;
 import com.example.service.AttachService;
-import com.example.service.ProfileService;
 import com.example.util.Md5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

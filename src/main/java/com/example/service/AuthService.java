@@ -1,15 +1,16 @@
 package com.example.service;
 
-import com.example.config.security.JwtTokenFilter;
+import com.example.dto.RegistrationDTO;
 import com.example.dto.auth.AuthDTO;
 import com.example.dto.auth.AuthResponseDTO;
-import com.example.dto.RegistrationDTO;
 import com.example.entity.EmailEntity;
 import com.example.entity.ProfileEntity;
 import com.example.enums.LangEnum;
 import com.example.enums.ProfileRole;
 import com.example.enums.ProfileStatus;
-import com.example.exceptions.*;
+import com.example.exceptions.AppForbiddenException;
+import com.example.exceptions.EmailAlreadyExistsException;
+import com.example.exceptions.PasswordOrEmailWrongException;
 import com.example.repository.EmailRepository;
 import com.example.repository.ProfileRepository;
 import com.example.util.JwtTokenUtil;

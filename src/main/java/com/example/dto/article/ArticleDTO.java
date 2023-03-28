@@ -1,11 +1,10 @@
 package com.example.dto.article;
 
 
-
-import com.example.dto.attach.AttachDTO;
 import com.example.dto.CategoryDTO;
-import com.example.dto.profile.ProfileDTO;
 import com.example.dto.RegionDTO;
+import com.example.dto.attach.AttachDTO;
+import com.example.dto.profile.ProfileDTO;
 import com.example.enums.ArticleStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;

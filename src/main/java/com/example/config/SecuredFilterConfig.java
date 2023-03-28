@@ -1,4 +1,4 @@
-//package com.example.config;
+package com.example.config;//package com.example.config;
 //
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.web.servlet.FilterRegistrationBean;

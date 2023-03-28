@@ -1,19 +1,12 @@
 package com.example.dto.article;
 
 
-import com.example.entity.AttachEntity;
-import com.example.entity.CategoryEntity;
-import com.example.entity.ProfileEntity;
-import com.example.entity.RegionEntity;
-import com.example.enums.ArticleStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.web.bind.annotation.PostMapping;
 
-import java.time.LocalDateTime;
 @ToString
 @Setter
 @Getter

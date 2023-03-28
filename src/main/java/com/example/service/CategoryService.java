@@ -1,10 +1,7 @@
 package com.example.service;
 import com.example.dto.CategoryDTO;
 import com.example.entity.CategoryEntity;
-import com.example.entity.ProfileEntity;
-import com.example.entity.RegionEntity;
 import com.example.enums.LangEnum;
-import com.example.exceptions.ArticleTypeException;
 import com.example.exceptions.ItemNotFoundException;
 import com.example.exceptions.RegionAlreadyExsistException;
 import com.example.repository.CategoryRepository;

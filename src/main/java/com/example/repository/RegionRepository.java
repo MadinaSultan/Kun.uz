@@ -1,6 +1,5 @@
 package com.example.repository;
 
-import com.example.entity.ArticleTypeEntity;
 import com.example.entity.RegionEntity;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;

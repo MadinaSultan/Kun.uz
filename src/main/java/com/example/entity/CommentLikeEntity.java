@@ -1,6 +1,5 @@
 package com.example.entity;
 
-import com.example.enums.ArticleLIkeStatus;
 import com.example.enums.CommentLikeStatus;
 import jakarta.persistence.*;
 import lombok.Getter;

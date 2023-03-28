@@ -7,7 +7,6 @@ import com.example.enums.ArticleStatus;
 import com.example.enums.LangEnum;
 import com.example.mapper.IArticleShortInfoMapper;
 import com.example.service.ArticleService;
-import jakarta.annotation.security.PermitAll;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;

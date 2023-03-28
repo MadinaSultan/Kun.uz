@@ -1,16 +1,13 @@
 package com.example.entity;
 
-import com.example.enums.LangEnum;
 import jakarta.persistence.*;
-import jdk.jfr.Enabled;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

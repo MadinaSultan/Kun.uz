@@ -4,7 +4,9 @@ import com.example.dto.profile.ProfileDTO;
 import com.example.dto.profile.ProfileFilterDTO;
 import com.example.entity.ProfileEntity;
 import com.example.enums.ProfileStatus;
-import com.example.exceptions.*;
+import com.example.exceptions.AppForbiddenException;
+import com.example.exceptions.EmailAlreadyExistsException;
+import com.example.exceptions.ItemNotFoundException;
 import com.example.repository.ProfileRepository;
 import com.example.repository.custom.ProfileCustomRepository;
 import com.example.util.Md5Util;
@@ -16,7 +18,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import javax.swing.*;
 import java.time.LocalDateTime;
 import java.util.LinkedList;
 import java.util.List;

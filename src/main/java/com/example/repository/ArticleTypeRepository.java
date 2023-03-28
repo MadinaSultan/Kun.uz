@@ -1,15 +1,10 @@
 package com.example.repository;
 
 import com.example.entity.ArticleTypeEntity;
-
-import com.example.enums.LangEnum;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-
-import java.util.List;
 
 public interface ArticleTypeRepository extends JpaRepository<ArticleTypeEntity, Integer> {
 

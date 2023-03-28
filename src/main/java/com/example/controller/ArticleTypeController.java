@@ -2,7 +2,6 @@ package com.example.controller;
 
 import com.example.dto.article.ArticleTypeDTO;
 import com.example.enums.LangEnum;
-import com.example.enums.ProfileRole;
 import com.example.service.ArticleTypeService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
